@@ -9,7 +9,6 @@ namespace Biblioteca.Infraestrutura.DesignTime
         public AppDbContext CreateDbContext(string[] args)
         {
             var builder = new DbContextOptionsBuilder<AppDbContext>();
-            // default LocalDB; altere a connection string se usar SQL Server com usuário
             builder.UseSqlServer("Server=localhost,1433;Database=BibliotecaDB;User Id=sa;Password=Senha@123;TrustServerCertificate=True;");
             return new AppDbContext(builder.Options);
         }

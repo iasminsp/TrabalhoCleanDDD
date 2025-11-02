@@ -11,7 +11,6 @@ namespace Biblioteca.Infraestrutura.Repositories
     {
         public LivroRepository(AppDbContext ctx) : base(ctx) { }
 
-        // aqui poderia ter queries específicas, por exemplo:
         public async Task<IEnumerable<Livro>> GetByGeneroAsync(string genero) =>
             await _ctx.Livros.AsNoTracking().Where(l => l.Genero == genero).ToListAsync();
     }

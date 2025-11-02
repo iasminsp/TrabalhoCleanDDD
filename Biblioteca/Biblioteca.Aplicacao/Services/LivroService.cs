@@ -50,7 +50,6 @@ namespace Biblioteca.Aplicacao.Services
         public async Task<IEnumerable<LivroViewModel>> ObterTodos()
         {
             var livros = await _livroRepo.GetAllAsync();
-            // carregar autores para apresentar nome (poderia incluir join EF, aqui simples)
             var autores = (await _autorRepo.GetAllAsync()).ToDictionary(a => a.Id, a => a.Nome);
 
             return livros.Select(l => new LivroViewModel

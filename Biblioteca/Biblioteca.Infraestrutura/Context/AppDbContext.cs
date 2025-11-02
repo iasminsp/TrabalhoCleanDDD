@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using Biblioteca.Dominio.Entities; // se suas entidades estiverem neste namespace
+using Biblioteca.Dominio.Entities; 
 
 namespace Biblioteca.Infraestrutura.Context
 {
