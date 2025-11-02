@@ -1,0 +1,18 @@
+using Biblioteca.Dominio.Entities;
+using Biblioteca.Dominio.Repositories;
+using Biblioteca.Infraestrutura.Context;
+using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+
+namespace Biblioteca.Infraestrutura.Repositories
+{
+    public class LivroRepository : GenericRepository<Livro>, IGenericRepository<Livro>
+    {
+        public LivroRepository(AppDbContext ctx) : base(ctx) { }
+
+        // aqui poderia ter queries específicas, por exemplo:
+        public async Task<IEnumerable<Livro>> GetByGeneroAsync(string genero) =>
+            await _ctx.Livros.AsNoTracking().Where(l => l.Genero == genero).ToListAsync();
+    }
+}

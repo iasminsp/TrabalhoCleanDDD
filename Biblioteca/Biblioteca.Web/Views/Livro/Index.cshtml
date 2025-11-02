@@ -1,0 +1,27 @@
+@model IEnumerable<Biblioteca.Aplicacao.ViewModels.LivroViewModel>
+@{
+    ViewData["Title"] = "Livros";
+}
+<h1>Livros</h1>
+<p><a class="btn btn-primary" asp-action="Create">Novo Livro</a> <a class="btn btn-secondary" asp-controller="Autor" asp-action="Index">Autores</a></p>
+<table class="table">
+    <thead>
+        <tr><th>Título</th><th>Autor</th><th>Gênero</th><th>Ano</th><th></th></tr>
+    </thead>
+    <tbody>
+    @foreach(var l in Model)
+    {
+        <tr>
+            <td>@l.Titulo</td>
+            <td>@l.AutorNome</td>
+            <td>@l.Genero</td>
+            <td>@l.AnoPublicacao</td>
+            <td>
+                <a asp-action="Details" asp-route-id="@l.Id">Detalhes</a> |
+                <a asp-action="Edit" asp-route-id="@l.Id">Editar</a> |
+                <a asp-action="Delete" asp-route-id="@l.Id">Excluir</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

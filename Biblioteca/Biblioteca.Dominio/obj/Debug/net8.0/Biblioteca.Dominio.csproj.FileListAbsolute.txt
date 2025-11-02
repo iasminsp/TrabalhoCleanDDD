@@ -1,0 +1,12 @@
+/workspaces/TrabalhoCleanDDD/Biblioteca/Biblioteca.Dominio/bin/Debug/net8.0/Biblioteca.Dominio.deps.json
+/workspaces/TrabalhoCleanDDD/Biblioteca/Biblioteca.Dominio/bin/Debug/net8.0/Biblioteca.Dominio.dll
+/workspaces/TrabalhoCleanDDD/Biblioteca/Biblioteca.Dominio/bin/Debug/net8.0/Biblioteca.Dominio.pdb
+/workspaces/TrabalhoCleanDDD/Biblioteca/Biblioteca.Dominio/obj/Debug/net8.0/Biblioteca.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/TrabalhoCleanDDD/Biblioteca/Biblioteca.Dominio/obj/Debug/net8.0/Biblioteca.Dominio.AssemblyInfoInputs.cache
+/workspaces/TrabalhoCleanDDD/Biblioteca/Biblioteca.Dominio/obj/Debug/net8.0/Biblioteca.Dominio.AssemblyInfo.cs
+/workspaces/TrabalhoCleanDDD/Biblioteca/Biblioteca.Dominio/obj/Debug/net8.0/Biblioteca.Dominio.csproj.CoreCompileInputs.cache
+/workspaces/TrabalhoCleanDDD/Biblioteca/Biblioteca.Dominio/obj/Debug/net8.0/Biblioteca.Dominio.sourcelink.json
+/workspaces/TrabalhoCleanDDD/Biblioteca/Biblioteca.Dominio/obj/Debug/net8.0/Biblioteca.Dominio.dll
+/workspaces/TrabalhoCleanDDD/Biblioteca/Biblioteca.Dominio/obj/Debug/net8.0/refint/Biblioteca.Dominio.dll
+/workspaces/TrabalhoCleanDDD/Biblioteca/Biblioteca.Dominio/obj/Debug/net8.0/Biblioteca.Dominio.pdb
+/workspaces/TrabalhoCleanDDD/Biblioteca/Biblioteca.Dominio/obj/Debug/net8.0/ref/Biblioteca.Dominio.dll

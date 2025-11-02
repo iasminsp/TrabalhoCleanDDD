@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "UmySlm5ZxUyWc68ydQaXo+HaZ5dtuqVKMBiJs5ZkFAg=",
+  "Source": "Biblioteca.Web",
+  "BasePath": "_content/Biblioteca.Web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Biblioteca.Web/wwwroot",
+      "Source": "Biblioteca.Web",
+      "ContentRoot": "/workspaces/TrabalhoCleanDDD/Biblioteca/Biblioteca.Web/wwwroot/",
+      "BasePath": "_content/Biblioteca.Web",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
